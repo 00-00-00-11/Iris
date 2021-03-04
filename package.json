@@ -1,0 +1,32 @@
+{
+  "name": "iris-client",
+  "version": "1.0.0",
+  "description": "A NodeJS Discord API Library Built In Pure-TypeScript",
+  "main": "./Library/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotMarx/Iris"
+  },
+  "keywords": [
+    "iris",
+    "discord",
+    "discordapi",
+    "discordbot",
+    "api",
+    "nodejs",
+    "ts",
+    "js"
+  ],
+  "author": "NotMarx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotMarx/issues"
+  },
+  "homepage": "https://github.com/NotMarx/Iris#readme",
+  "dependencies": {
+    "ws": "^7.4.3"
+  }
+}
