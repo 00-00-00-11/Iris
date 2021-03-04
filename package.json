@@ -1,5 +1,5 @@
 {
-  "name": "iris-client",
+  "name": "iris.me",
   "version": "1.0.0",
   "description": "A NodeJS Discord API Library Built In Pure-TypeScript",
   "main": "./Library/index.js",

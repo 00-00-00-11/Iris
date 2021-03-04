@@ -1,6 +1,6 @@
 # Iris
 
-A NodeJS Wrapper Designed To Interact With The Discord API. Pure Built In **TypeScript**.
+A NodeJS Wrapper Designed Easily To Interact With The Discord API. Pure Built In **TypeScript**.
 
 - **API Docs** - Soon!
 
@@ -19,7 +19,7 @@ Before You Start, Please Note That **Iris** Is Operated Within The Specific Clie
 
 ```js
 
-const Iris = require("iris-client");
+const Iris = require("iris.me");
 
 const client = new Iris.CommandClient("BOT_TOKEN", { prefix: "!"});
 
@@ -64,7 +64,7 @@ client.run().then(console.log("I'm Ready To Go!"));
 
 ```js
 
-const Iris = require("iris-client");
+const Iris = require("iris.me");
 const client = new Iris.ShardClient("BOT_TOKEN", { gateway: { loadAllMembers: true}});
 const prefix = "!";
 
@@ -91,7 +91,7 @@ client.run().then(console.log("Ready!"))
 
 ```js
 
-const Iris = require("iris-client")
+const Iris = require("iris.me")
 const client = new Iris.ClusterClient("BOT_TOKEN", {
     gateway: {
         presence: {
