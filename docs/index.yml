@@ -1,0 +1,11 @@
+- name: General
+    files:
+    - name: Welcome To Iris
+      path: welcome.md
+    
+- name: Examples
+  files:
+    - name: Ping
+      path: ping.md
+    - name: Embed
+      path: embed.md
